@@ -49,12 +49,7 @@ export default {
                     this.mensaje='Ejecutando, el proceso de ETL, el periodo en que se esta procesando los datos es de 2009 a 2023, por favor esperar un momento'
                     this.dialogProce= true;
 
-                    await this.runETL(); 
-                    if(this.message==='Proceso ETL ejecutado exitosamente'){
-                        this.mensaje='Proceso exitoso, se ha ejecutado correctamente el ETL en el periodo señalado';
-                    }else{
-                        this.mensaje='Error'
-                    }
+
                     this.dialogProce= false;
                     const usuarioE= this.usuarios.find(usuario=> usuario.username===this.username && usuario.password===this.password);
                     localStorage.setItem('IdPersonal', usuarioE.IdPersonal);
