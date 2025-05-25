@@ -1,0 +1,172 @@
+.validarcodigo_css{
+    margin: 0px;
+    display: flex;
+    padding: 0px;
+    max-width: 100%;
+    height: 100%;
+    font-family: system-ui;
+}
+
+.validarcodigo_css .todofondo{
+    background-color: #002854; 
+    background-blend-mode: multiply;
+    max-width: 100%;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+}
+
+.validarcodigo_css .cajaprincipal{
+    background-color: white;
+    border-radius: 20px;
+    height: 550px;
+    width: 900px;
+    align-self: center;
+    display: flex;
+    padding: 0px;
+    border: 3px solid #DD0919;
+}
+
+.validarcodigo_css .izquierda{
+    width: 65%;
+}
+
+.validarcodigo_css .derecha{
+    width: 45%;
+    padding: 0px;
+}
+
+.validarcodigo_css .contcolor{
+    background-color: #df0c0c;
+    border-radius: 18px;
+    height: 100%;
+    display: flex;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.validarcodigo_css .bientext{
+    color: red;
+    font-size: 30px;
+    text-align: center;
+    padding: 25px;
+    font-weight: 500;
+}
+
+.validarcodigo_css .texto{
+    color: #002854;
+    font-size: 16px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.validarcodigo_css .info{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 300px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border-radius: 8px; 
+}
+
+.validarcodigo_css .ingtxt{
+    width: 51px;
+    color: #002854;
+    margin-bottom: 14px;
+    text-align-last: center;
+    font-weight: bold;
+}
+
+.validarcodigo_css .btn-recuperar{
+    width: 190px;
+    color: #002854;
+    margin-bottom: 20px;
+}
+
+.validarcodigo_css .btn-cancelar{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.validarcodigo_css .btn-recuperar:hover{
+    background-color: #bec2be;
+}
+
+.validarcodigo_css .btn-cancelar:hover{
+    background-color: #DD0919;
+}
+
+@media screen and (max-width: 768px) {
+    .validarcodigo_css .cajaprincipal {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    }
+
+    .validarcodigo_css .izquierda {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .validarcodigo_css .derecha {
+        display: none;
+    }
+
+    .validarcodigo_css .info {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .validarcodigo_css .ingtxt {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .validarcodigo_css .btn-recuperar,
+    .validarcodigo_css .btn-cancelar {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .validarcodigo_css .texto {
+        width: 90%;
+        margin: 0 auto 15px auto;
+        font-size: 14px;
+    }
+
+    .validarcodigo_css .bientext {
+        font-size: 26px;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .validarcodigo_css .cajaprincipal {
+        width: 95%;
+    }
+
+    .validarcodigo_css .ingtxt {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .validarcodigo_css .bientext {
+        font-size: 22px;
+        padding: 10px;
+    }
+
+    .validarcodigo_css .texto {
+        font-size: 13px;
+        padding: 0 10px;
+    }
+
+    .validarcodigo_css .btn-recuperar,
+    .validarcodigo_css .btn-cancelar {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

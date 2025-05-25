@@ -1,0 +1,170 @@
+.recuperarcuenta_css{
+    margin: 0px;
+    display: flex;
+    padding: 0px;
+    max-width: 100%;
+    height: 100%;
+    font-family: system-ui;
+}
+
+.recuperarcuenta_css .todofondo{
+    background-color: #002854; 
+    background-blend-mode: multiply;
+    max-width: 100%;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+}
+
+.recuperarcuenta_css .cajaprincipal{
+    background-color: white;
+    border-radius: 20px;
+    height: 550px;
+    width: 900px;
+    align-self: center;
+    display: flex;
+    padding: 0px;
+    border: 3px solid #DD0919;
+}
+
+.recuperarcuenta_css .izquierda{
+    width: 65%;
+}
+
+.recuperarcuenta_css .derecha{
+    width: 45%;
+    padding: 0px;
+}
+
+.recuperarcuenta_css .contcolor{
+    background-color: #DD0919;
+    border-radius: 18px;
+    height: 100%;
+    display: flex;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.recuperarcuenta_css .bientext{
+    color: rgb(170, 41, 41);
+    font-size: 30px;
+    text-align: center;
+    padding: 25px;
+    font-weight: 500;
+}
+
+.recuperarcuenta_css .texto{
+    color: #002854;
+    font-size: 16px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.recuperarcuenta_css .info{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    width: 300px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    border-radius: 8px; 
+}
+
+.recuperarcuenta_css .ingtxt{
+    width: 350px;
+    color: #002854;
+    margin-bottom: 14px;
+}
+
+.recuperarcuenta_css .btn-recuperar{
+    width: 190px;
+    color: #002854;
+    margin-bottom: 20px;
+}
+
+.recuperarcuenta_css .btn-cancelar{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.recuperarcuenta_css .btn-recuperar:hover{
+    background-color: #bec2be;
+}
+
+.recuperarcuenta_css .btn-cancelar:hover{
+    background-color: #DD0919;
+}
+
+@media screen and (max-width: 1020px) {
+    .recuperarcuenta_css .izquierda {
+        width: 70%;
+    }
+
+    .recuperarcuenta_css .derecha {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .recuperarcuenta_css .cajaprincipal {
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+    }
+
+    .recuperarcuenta_css .izquierda {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .recuperarcuenta_css .derecha {
+        display: none;
+    }
+
+    .recuperarcuenta_css .ingtxt,
+    .recuperarcuenta_css .btn-recuperar,
+    .recuperarcuenta_css .btn-cancelar {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px auto;
+    }
+
+    .recuperarcuenta_css .texto {
+        font-size: 14px;
+        margin: 0 auto 15px;
+        width: 90%;
+    }
+
+    .recuperarcuenta_css .bientext {
+        font-size: 24px;
+        padding: 20px 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .recuperarcuenta_css .cajaprincipal {
+        width: 95%;
+    }
+
+    .recuperarcuenta_css .bientext {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .recuperarcuenta_css .ingtxt {
+        width: 90%;
+    }
+
+    .recuperarcuenta_css .texto {
+        font-size: 13px;
+        width: 90%;
+    }
+
+    .recuperarcuenta_css .btn-recuperar,
+    .recuperarcuenta_css .btn-cancelar {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

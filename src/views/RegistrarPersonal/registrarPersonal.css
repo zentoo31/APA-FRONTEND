@@ -1,0 +1,191 @@
+.registrarpersonal_css{
+    margin: 0px;
+    display: flex;
+    padding: 0px;
+    max-width: 100%;
+    height: 100%;
+    font-family: system-ui;
+}
+
+.registrarpersonal_css .todofondo{
+
+    background-color: #002854; 
+    background-blend-mode: multiply;
+    max-width: 100%;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+}
+
+.registrarpersonal_css .cajaprincipal{
+    background-color: white;
+    border-radius: 20px;
+    height: 740px;
+    width: 1250px;
+    align-self: center;
+    display: flex;
+    padding: 0px;
+    border: 3px solid #DD0919;
+}
+
+.registrarpersonal_css .izquierda{
+    width: 65%;
+}
+
+.registrarpersonal_css .derecha{
+    width: 45%;
+    padding: 0px;
+}
+
+.registrarpersonal_css .contcolor{
+    background-color: #DD0919;
+    border-radius: 18px;
+    height: 100%;
+    display: flex;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.registrarpersonal_css .bientext{
+    color: rgb(167, 17, 17);
+    font-size: 30px;
+    text-align: center;
+    padding: 22px;
+    font-weight: 500;
+}
+
+.registrarpersonal_css .texto{
+    color: #002854;
+    font-size: 16px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+    border-bottom: 1px solid #002854;
+    height: 29px;
+    width: 564px;
+}
+
+.registrarpersonal_css .info{
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en nuevas líneas */
+    justify-content: flex-start;
+}
+
+.registrarpersonal_css .ingtxt{
+    width: 48%; /* Ocupa casi la mitad del contenedor padre (ajustar si es necesario) */
+    color: #002854;
+    margin: 5px 1%; /* Espacio entre los elementos, usa 1% de margen lateral para mantener los elementos en dos columnas */
+    box-sizing: border-box; /* Incluye padding y border en el ancho total */
+}
+
+.registrarpersonal_css .ingtxt1{
+    width: 100%;
+    color: #002854;
+    margin-bottom: -9px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.registrarpersonal_css .ingcontraseña{
+    width: 100%;
+    color: #002854;
+    margin-bottom: -14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.registrarpersonal_css .btn-registrar{
+    width: 190px;
+    color: #002854;
+}
+
+.registrarpersonal_css .btn-cancelar{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.registrarpersonal_css .btn-registrar:hover{
+    background-color: #bec2be;
+}
+
+.registrarpersonal_css .btn-cancelar:hover{
+    background-color: #DD0919;
+}
+
+@media screen and (max-width: 1280px) {
+    .registrarpersonal_css .cajaprincipal {
+        width: 95%;
+        height: auto;
+        flex-direction: row;
+    }
+
+    .registrarpersonal_css .izquierda {
+        width: 70%;
+    }
+
+    .registrarpersonal_css .derecha {
+        width: 30%;
+    }
+
+    .registrarpersonal_css .ingtxt {
+        width: 100%;
+        margin: 8px 0;
+    }
+    .registrarpersonal_css .ingtxt1{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .registrarpersonal_css .ingcontraseña {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .registrarpersonal_css .ingtxt,
+    .registrarpersonal_css .ingcontraseña {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .registrarpersonal_css .btn-registrar,
+    .registrarpersonal_css .btn-cancelar {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .registrarpersonal_css .btn-cancelar {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .registrarpersonal_css .texto {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .registrarpersonal_css .cajaprincipal {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    }
+
+    .registrarpersonal_css .izquierda {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .registrarpersonal_css .derecha {
+        display: none;
+    }
+
+    .registrarpersonal_css .info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+}
+
+

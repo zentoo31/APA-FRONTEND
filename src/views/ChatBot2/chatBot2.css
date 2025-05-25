@@ -1,0 +1,25 @@
+.chat2{
+    position: fixed;
+    padding: 0px;
+}
+
+.chat2 .chatbot-message{
+    position: fixed;
+    bottom: 134px;
+    left: 155px;
+    max-width: 300px;
+    border: 2px solid #DD0919;
+    color: #002854;
+}
+
+.chat2 .logou{
+    background-image: url('../../components/img/AA.png');
+    background-size: cover;
+    width: 140px;
+    height: 138px;
+    margin-left: 10px;
+    align-self: center;
+    left: 9px;
+    bottom: 16px;
+    position: fixed;
+}
