@@ -19,7 +19,7 @@ export default {
         },
 
         irRestablecer() {
-            this.$router.push("/RestablecerContraseña");
+            this.$router.push("/RestablecerContrasena");
         },
 
         moveToNext(index) {
